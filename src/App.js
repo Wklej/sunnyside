@@ -1,24 +1,23 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from './Components/Navbar';
+import WeAre from './Components/WeAre';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <div className="container">
-          <div className="row">
-            <div className="col-6">asdasd</div>
-            <div className="col-2">asdasd</div>
-            <div className="col-4">asdasd</div>
-          </div>
-        </div> */}
+
         <Navbar />
 
-      {/* <p>About
-  Services
-  Projects
-  Contact
+        <div className="col">
+          <WeAre />
+        </div>
+        <div className="col">asd</div>
+        
+
+
+      {/* 
 
   We are creatives
 
