@@ -2,6 +2,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from './Components/Navbar';
 import WeAre from './Components/WeAre';
+import TextSlide from './Components/TextSlide';
+import ImageSlide from './Components/ImageSlide';
+import eggPic from './images/desktop/image-transform.jpg'
+import cupPic from './images/desktop/image-stand-out.jpg'
 
 function App() {
   return (
@@ -10,11 +14,29 @@ function App() {
 
         <Navbar />
 
-        <div className="col">
-          <WeAre />
+        <div className="row">
+          <div className="col">
+            <WeAre />
+          </div>
         </div>
-        <div className="col">asd</div>
         
+        <div className="container-fluid">
+          <div className="row">
+              <TextSlide title={"title1"} content={"bla blah bla"} />
+              <ImageSlide img={eggPic} />
+          </div>
+          <div className="row">
+              <ImageSlide img={cupPic} />
+              <TextSlide title={"title2"} content={"dupa dupa dupa"} />
+          </div>
+        </div>
+
+        
+
+
+
+
+
 
 
       {/* 
