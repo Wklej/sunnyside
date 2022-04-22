@@ -1,8 +1,8 @@
 const TextSlide = ({title, content}) => {
     return (  
-        <div className="col-6">
+        <div className="col-6 p-0">
             <p>{title}</p>
-            <p className="mt-2">{content}</p>
+            <p>{content}</p>
             <a href="#">Learn more</a>
         </div>
     );

@@ -6,6 +6,9 @@ import TextSlide from './Components/TextSlide';
 import ImageSlide from './Components/ImageSlide';
 import eggPic from './images/desktop/image-transform.jpg'
 import cupPic from './images/desktop/image-stand-out.jpg'
+import cherries from './images/desktop/image-graphic-design.jpg'
+import oranges from './images/desktop/image-photography.jpg'
+import ImageWithText from './Components/ImageWithText';
 
 function App() {
   return (
@@ -15,7 +18,7 @@ function App() {
         <Navbar />
 
         <div className="row">
-          <div className="col">
+          <div className="col p-0">
             <WeAre />
           </div>
         </div>
@@ -29,9 +32,13 @@ function App() {
               <ImageSlide img={cupPic} />
               <TextSlide title={"title2"} content={"dupa dupa dupa"} />
           </div>
+          <div className="row">
+              <ImageWithText img={cherries} title={"Graphic Design"} content={"cherry content"} />
+              <ImageWithText img={oranges} title={"Photography"} content={"orange content"} />
+          </div>
         </div>
 
-        
+
 
 
 

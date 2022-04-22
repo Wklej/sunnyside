@@ -3,9 +3,9 @@ import '../App.css'
 
 const WeAre = () => {
     return (
-        <div>
+        <div className='posR'>
             <img src={img} className="img-fluid" />
-            <p className='carousel-caption'>We are creatives</p>
+            <p className='posA'>We are creatives</p>
         </div> 
      );
 }
