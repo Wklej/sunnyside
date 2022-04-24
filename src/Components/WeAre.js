@@ -4,8 +4,8 @@ import '../App.css'
 const WeAre = () => {
     return (
         <div className='posR'>
-            <img src={img} className="img-fluid" />
             <p className='posA'>We are creatives</p>
+            <img src={img} className="img-fluid" />
         </div> 
      );
 }

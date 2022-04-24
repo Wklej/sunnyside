@@ -1,7 +1,7 @@
 const ImageSlide = ({img}) => {
     return ( 
-        <div className="col-6 p-0">
-            <img src={img} className="img-fluid" />
+        <div className="col-6">
+            <img src={img} className="posR img-fluid" />
         </div>
      );
 }
