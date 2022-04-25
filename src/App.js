@@ -18,6 +18,7 @@ import orange from './images/desktop/image-gallery-orange.jpg'
 import sugarcubes from './images/desktop/image-gallery-sugarcubes.jpg'
 import cone from './images/desktop/image-gallery-cone.jpg'
 import RowWithImages from './Components/RowWithImages';
+import Bottom from './Components/Bottom';
 
 
 const App = () => {
@@ -53,7 +54,8 @@ const App = () => {
 		</div>
 		
 		<RowWithImages imgArr={[milks, orange, cone, sugarcubes]} />
-      
+
+		<Bottom />
       
     </div>
    );
