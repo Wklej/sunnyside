@@ -9,9 +9,23 @@ import cupPic from './images/desktop/image-stand-out.jpg'
 import cherries from './images/desktop/image-graphic-design.jpg'
 import oranges from './images/desktop/image-photography.jpg'
 import ImageWithText from './Components/ImageWithText';
-import img from './images/desktop/image-header.jpg'
+import Description from './Components/Description';
+import Emily from './images/image-emily.jpg'
+import Jennie from './images/image-jennie.jpg'
+import Thomas from './images/image-thomas.jpg'
+import milks from './images/desktop/image-gallery-milkbottles.jpg'
+import orange from './images/desktop/image-gallery-orange.jpg'
+import sugarcubes from './images/desktop/image-gallery-sugarcubes.jpg'
+import cone from './images/desktop/image-gallery-cone.jpg'
+import RowWithImages from './Components/RowWithImages';
+
 
 const App = () => {
+
+	const dummyDesc = "Dummy description bla bla bla\
+	 asda sdasda, sadasdasd \
+	 asdasdasdasdasdasd."
+
   return ( 
 	<div className="container-fluid p-0">
 		<Navbar />
@@ -29,8 +43,16 @@ const App = () => {
 			<ImageWithText img={cherries} title={"Graphic Design"} content={"cherry content"} />
 			<ImageWithText img={oranges} title={"Photography"} content={"orange content"} />
 		</div>
-      
-      
+		<div className="row g-0">
+			<p className='text-center'>Client testimonials</p>
+		</div>
+		<div className="row g-0">
+			<Description img={Emily} desc={dummyDesc} name={'Emily R.'} rank={'Marketing Director'} />
+			<Description img={Thomas} desc={dummyDesc} name={'Thomas S.'} rank={'Chief Operating Officer'} />
+			<Description img={Jennie} desc={dummyDesc} name={'Jennie F.'} rank={'Business Owner'} />
+		</div>
+		
+		<RowWithImages imgArr={[milks, orange, cone, sugarcubes]} />
       
       
     </div>
