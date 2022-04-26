@@ -8,7 +8,7 @@ const Bottom = () => {
 
         for (let i = 0; i < images.length; ++i) {
             array.push(
-                <button className="btn">
+                <button className="btn btn-lg">
                     <FontAwesomeIcon icon={images[i]} />
                 </button>
             )
@@ -17,14 +17,14 @@ const Bottom = () => {
     }
 
     return ( 
-        <div className="col text-center">
-            <p>sunnyside</p>
-            <div className="row justify-content-center g-0">
-                <div className="col-1">About</div>
-                <div className="col-1">Services</div>
-                <div className="col-1">Project</div>
+        <div className="col text-center bottom">
+            <p className="fs-1">sunnyside</p>
+            <div className="row justify-content-center g-0 pb-5 pt-2">
+                <a href="#" className="col-1 a2">About</a>
+                <a href="#" className="col-1 a2">Services</a>
+                <a href="#" className="col-1 a2">Project</a>
             </div>
-            <div className="col">
+            <div className="col pb-5">
                 {arr([faFacebook, faInstagram, faTwitter, faPinterest])}
             </div>
         </div>

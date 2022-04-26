@@ -62,10 +62,46 @@
   color: black;
 }
 
+.a2 {
+  text-decoration: none;
+  color:hsl(167, 40%, 24%);
+}
+
+.a2:hover {
+  color: white;
+}
+
 .imageText {
   margin: 0 auto;
   position: absolute;
   top: 60%; right: 0; left: 0;
   width: 60%;
   font-size: 1rem;
+}
+
+.testimonials {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.p2 {
+  font-family: Barlow;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.rank {
+  font-size: 1rem;
+  font-family: Barlow;
+}
+
+.bottom {
+  padding-top: 4rem;
+  background-color: hsl(168, 34%, 41%);
+  color: hsl(167, 40%, 24%);
 }
