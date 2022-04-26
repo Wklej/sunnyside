@@ -47,8 +47,12 @@ const App = () => {
 							 videographers, and copywriters, we’ll build and extend your brand in digital places."} />
 			</div>
 			<div className="row g-0">
-				<ImageWithText img={cherries} title={"Graphic Design"} content={"cherry content"} />
-				<ImageWithText img={oranges} title={"Photography"} content={"orange content"} />
+				<ImageWithText img={cherries} title={"Graphic Design"} 
+								content={"Great design makes you memorable. We deliver artwork that underscores\
+								 your brand message and captures potential clients’ attention."} />
+				<ImageWithText img={oranges} title={"Photography"} 
+								content={"Increase your credibility by getting the most stunning,\
+								 high-quality photos that improve your business image."} />
 			</div>
 			<div className="row g-0">
 				<p className='text-center'>Client testimonials</p>

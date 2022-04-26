@@ -61,3 +61,11 @@
 .a1:hover {
   color: black;
 }
+
+.imageText {
+  margin: 0 auto;
+  position: absolute;
+  top: 60%; right: 0; left: 0;
+  width: 60%;
+  font-size: 1rem;
+}
