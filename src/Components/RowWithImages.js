@@ -14,7 +14,7 @@ const RowWithImages = ({imgArr}) => {
     }
 
     return ( 
-        <div className="row g-0">
+        <div className="row g-0 pt-5">
 			{arr()}
 		</div>
      );

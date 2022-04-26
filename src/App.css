@@ -62,6 +62,15 @@
   color: black;
 }
 
+.a2 {
+  text-decoration: none;
+  color:hsl(167, 40%, 24%);
+}
+
+.a2:hover {
+  color: white;
+}
+
 .imageText {
   margin: 0 auto;
   position: absolute;
@@ -91,4 +100,8 @@
   font-family: Barlow;
 }
 
-.
+.bottom {
+  padding-top: 4rem;
+  background-color: hsl(168, 34%, 41%);
+  color: hsl(167, 40%, 24%);
+}
