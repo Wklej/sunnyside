@@ -4,9 +4,26 @@
 
 .posA {
   position: absolute;
-  top: 50%;
+  top: 40%;
 }
 
 .roundImg {
   border-radius: 50%;
+}
+
+.app {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+}
+
+.weAreFont {
+  font-size: 65px;
+  color: white;
+  height: 50%;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

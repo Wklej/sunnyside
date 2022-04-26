@@ -4,7 +4,7 @@ import '../App.css'
 const WeAre = () => {
     return (
         <div className='posR'>
-            <p className='posA'>We are creatives</p>
+            <p className='posA weAreFont'>We are creatives</p>
             <img src={img} className="img-fluid" />
         </div> 
      );
