@@ -35,12 +35,16 @@ const App = () => {
 			<WeAre />
 			
 			<div className="row g-0">
-				<TextSlide title={"title1"} content={"bla blah bla"} />
+				<TextSlide title={"Transform your brand"} 
+						   content={" We are a full-service creative agency specializing in helping brands grow fast.\
+                                Engage your clients through compelling visuals that do most of the marketing for you."} />
 				<ImageSlide img={eggPic} />
 			</div>
 			<div className="row g-0">
 				<ImageSlide img={cupPic} />
-				<TextSlide title={"title2"} content={"dupa dupa dupa"} />
+				<TextSlide title={"Stand out to the right audience"}
+							content={"Using a collaborative formula of designers, researchers, photographers,\
+							 videographers, and copywriters, we’ll build and extend your brand in digital places."} />
 			</div>
 			<div className="row g-0">
 				<ImageWithText img={cherries} title={"Graphic Design"} content={"cherry content"} />

@@ -36,3 +36,28 @@
   right: 0;
   margin: auto;
 }
+
+.text {
+  margin: 0 auto;
+  position: absolute;
+  top: 40%; right: 0; left: 0;
+  width: 70%;
+  font-size: 1rem;
+}
+
+.p1 {
+  font-family: Barlow;
+}
+
+.a1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border-bottom: #EA215A 0.25em solid;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.a1:hover {
+  color: black;
+}
