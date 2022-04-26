@@ -23,9 +23,9 @@ import Bottom from './Components/Bottom';
 
 const App = () => {
 
-	const dummyDesc = "Dummy description bla bla bla\
-	 asda sdasda, sadasdasd \
-	 asdasdasdasdasdasd."
+	const emilyDesc = "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
+	const thomasDesc = "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience."
+	const jennieDesc = "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
 
   return ( 
 
@@ -58,9 +58,9 @@ const App = () => {
 				<p className='testimonials text-muted'>Client testimonials</p>
 			</div>
 			<div className="row g-0">
-				<Description img={Emily} desc={dummyDesc} name={'Emily R.'} rank={'Marketing Director'} />
-				<Description img={Thomas} desc={dummyDesc} name={'Thomas S.'} rank={'Chief Operating Officer'} />
-				<Description img={Jennie} desc={dummyDesc} name={'Jennie F.'} rank={'Business Owner'} />
+				<Description img={Emily} desc={emilyDesc} name={'Emily R.'} rank={'Marketing Director'} />
+				<Description img={Thomas} desc={thomasDesc} name={'Thomas S.'} rank={'Chief Operating Officer'} />
+				<Description img={Jennie} desc={jennieDesc} name={'Jennie F.'} rank={'Business Owner'} />
 			</div>
 			
 			<RowWithImages imgArr={[milks, orange, cone, sugarcubes]} />
