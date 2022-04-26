@@ -55,7 +55,7 @@ const App = () => {
 								 high-quality photos that improve your business image."} />
 			</div>
 			<div className="row g-0">
-				<p className='text-center'>Client testimonials</p>
+				<p className='testimonials text-muted'>Client testimonials</p>
 			</div>
 			<div className="row g-0">
 				<Description img={Emily} desc={dummyDesc} name={'Emily R.'} rank={'Marketing Director'} />
