@@ -4,9 +4,68 @@
 
 .posA {
   position: absolute;
-  top: 50%;
+  top: 40%;
 }
 
 .roundImg {
   border-radius: 50%;
+}
+
+.app {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+}
+
+.weAreFont {
+  font-size: 65px;
+  color: white;
+  height: 50%;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.text {
+  margin: 0 auto;
+  position: absolute;
+  top: 40%; right: 0; left: 0;
+  width: 70%;
+  font-size: 1rem;
+}
+
+.p1 {
+  font-family: Barlow;
+}
+
+.a1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border-bottom: #EA215A 0.25em solid;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.a1:hover {
+  color: black;
+}
+
+.imageText {
+  margin: 0 auto;
+  position: absolute;
+  top: 60%; right: 0; left: 0;
+  width: 60%;
+  font-size: 1rem;
 }
