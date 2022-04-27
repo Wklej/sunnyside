@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faTwitter, faInstagram, faPinterest, faNpm } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faTwitter, faInstagram, faPinterest } from "@fortawesome/free-brands-svg-icons"
 
 const Bottom = () => {
 
@@ -8,9 +8,9 @@ const Bottom = () => {
 
         for (let i = 0; i < images.length; ++i) {
             array.push(
-                <button className="btn btn-lg">
-                    <FontAwesomeIcon icon={images[i]} />
-                </button>
+                <a href="#" className="social">
+                    <FontAwesomeIcon icon={images[i]} className="fa-2x" />
+                </a>
             )
         }
         return array
