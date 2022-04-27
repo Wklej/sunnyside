@@ -2,11 +2,11 @@ const Navbar = () => {
     return ( 
 
         <div className="navbar fixed-top">
-            <p className="col-6 text-left">sunnyside</p>
-                <p className="col">About</p>
-                <p className="col">Services</p>
-                <p className="col">Projects</p>
-            <button className="btn btn-outline-primary">Contact</button>
+            <p className="col-6 logo">sunnyside</p>
+            <a href="#" className="col-1 a3">About</a>
+            <a href="#" className="col-1 a3">Services</a>
+            <a href="#" className="col-1 a3">Projects</a>
+            <button className="btn btn-lg rounded-pill btn-contact">CONTACT</button>
         </div>
 
      );
