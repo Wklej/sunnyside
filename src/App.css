@@ -140,3 +140,13 @@
 .btn-contact:hover {
   background-color: rgba(255, 255, 255, 0.5) !important;
 }
+
+.social {
+  text-decoration: none;
+  padding: 1.5rem;
+  color: hsl(167, 40%, 24%);
+}
+
+.social:hover {
+  color: white;
+}
